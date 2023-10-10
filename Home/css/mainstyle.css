@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #505050;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo {
+    padding-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 80px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #505050;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #27a9e0;
+}
+
+.whatsapp-btn:hover {
+    background-color: rgb(43, 221, 43);
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.whatsapp-btn {
+    background-color: #075e54;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    margin-right: 80px;
+}
+.centrada {
+    display: block; 
+    margin: 150px auto;
+    max-width: 700px;     
+    width: 100%; 
+}
+
+.bannerimg {
+    height: 588px; 
+    width: 100%; 
+    object-fit: cover; 
+} 
+
+h1 {
+    color: #005180;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+
+h2 {
+    color: #005180;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+}
+
+h3 {
+    color: #005180;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+}
+
+h4 {
+    color: #005180;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    margin-bottom: 8px;
+}
+
+div.article p.chiquito {
+  font-size: 14px;
+}
+
+
+p {
+    color: #505050;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.boton1 {
+    color: white;
+    display: inline-flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #00364D;
+    list-style: none;
+    transition: background-color 0.4s;
+    margin-top: 56px; 
+    margin-right: 8px;
+}
+
+.boton1:hover {
+    background-color:#27a9e0;
+}
+
+.boton2 {
+    color: #505050;
+    display: inline-flex;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+    background: #d9d9d9;
+    list-style: none;
+}
+
+section {
+    margin-top: 80px;
+    width: 88.89%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer {
+    margin-top: 80px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+}
+
+#hero {
+    margin-top: 48px;
+}
+
+#hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#hero > div, #hero > article {
+  flex: 1;
+  max-width: 48%;
+}
+
+
+
+.especialidades {
+  display: flex;
+  gap: 24px;
+}
+
+.article {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.espe {
+  text-align: center;
+}
+
+.especialidades article img{
+  max-width: 100%;
+  height: auto;
+  width: 100%; 
+  aspect-ratio: 1.6 / 1; 
+  border-radius: 8px; 
+  object-fit: cover;
+}
+
+.especialidades {
+  margin-top: 48px; 
+  margin-bottom: 48px;
+}
+
+.especialidades article h3 {
+  margin-top: 32px; 
+}
+
+#botonp.boton1 {
+  margin-top: 12px;
+}
+
+#botonp {
+  margin-right: 8px; 
+}
+
+#conoce .boton1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+}
+
+#historia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#historia > .H-left, #historia > .H-right {
+    flex: 1;
+    max-width: 48%;
+}
+
+.H-left {
+    align-items: center;
+}
+
+#historia figure img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+    aspect-ratio: 1 / 1; 
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+.H-titulo {
+    text-align: left;
+    margin-bottom: 40px;
+    padding-top: 24px;
+}
+
+.U-right {
+    padding-top: 80px;
+}
+
+
+#ubicacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#ubicacion > .U-left, #ubicacion > .U-right {
+    flex: 1;
+    max-width: 48%;
+}
+
+#ubicacion figure img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+    aspect-ratio: 1 / 1; 
+    border-radius: 8px; 
+    object-fit: cover;
+}
+
+.CTAcolor {
+    color: white;
+    text-align: left;
+}
+
+#CTA {
+  background-color: #27A9E0;
+  padding: 48px;
+  border-radius: 8px;
+  width: 82%;
+}
+
+.cta-container {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-container > div {
+  flex: 1; 
+  padding: 20px;
+}
+
+footer {
+  background-color: #d9d9d9; 
+  color: white; 
+  padding: 80px; 
+  width: 100%; 
+  height: 312px;
+  box-sizing: border-box; 
+  overflow: hidden; 
+
+}
+
+footer > div {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline; 
+  margin-right: 8px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #505050; 
+  list-style: none;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+
+footer ul li {
+  margin-right: 16px;
+}
+
+
+footer ul li a {
+  text-decoration: none;
+  color: #505050;
+  align-content: center;
+}
+
+#superior {
+    margin-bottom: 48px;
+}
+
+#inferior {
+  flex: 1;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.boton1.CTA:hover {
+  background-color: #FF7A00;
+}
+
+.boton2:hover {
+  background-color: #FF7A00;
+  color: white;
+}
